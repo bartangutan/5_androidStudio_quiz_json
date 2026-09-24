@@ -10,37 +10,38 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewPytanie"
+        android:id="@+id/textViewTresc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:text="tresc pytania tu" />
 
     <RadioGroup
+        android:id="@+id/radioGroupPytanie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButtonA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButtonC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonNastepne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Następne pytanie" />
